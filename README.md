@@ -14,9 +14,9 @@ It's a name, involes herding, also I like Star Wars, what of it?
 
 Required environment variables:
 
-NERFHERDER_GO_SERVER - url of the go server
-NERFHERDER_GO_USERNAME - GO API username
-NERFHERDER_GO_PASSWORD - GO API password
-NERFHERDER_RANCHER_SERVER - url of the rancher server
-NERFHERDER_RANCHER_API_KEY - Rancher API Key
-NERFHERDER_RANCHER_API_SECRET - Rancher API Secret
+- NERFHERDER_GO_SERVER - url of the go server
+- NERFHERDER_GO_USERNAME - GO API username
+- NERFHERDER_GO_PASSWORD - GO API password
+- NERFHERDER_RANCHER_SERVER - url of the rancher server
+- NERFHERDER_RANCHER_API_KEY - Rancher API Key
+- NERFHERDER_RANCHER_API_SECRET - Rancher API Secret
