@@ -1,1 +1,1 @@
-new require('./lib')();
+new require('./lib')().start();

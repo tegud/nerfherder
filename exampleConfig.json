@@ -1,0 +1,13 @@
+{
+    "cleanup": {},
+    "gocd": {
+        "host": "http://go.example.io:8153",
+        "username": "myusername",
+        "password": "mypassword"
+    },
+    "rancher": {
+        "host": "http://rancher.example.io:8080",
+        "key": "mykey",
+        "secret": "mysecret"
+    }
+}
