@@ -15,7 +15,7 @@ It's a name, involes herding, also I like Star Wars, what of it?
 `TBD`
 
 ## Project Status: Proof of Concept
-This version is an initial pass of the functionality, used to generally explore what is required to implement automated rancher go agent handling.  Once basic functionality is established, a more robust, tested solution will be implemented.
+This version is an initial pass of the functionality, used to generally explore what is required to implement automated rancher go agent handling.  Once basic functionality is established, a more robust, tested solution will be implemented. For this reason, usage of the project is at the owners risk, that being said, input and feedback is greatly appreciated.
 
 ## Usage
 ### Agent Cleanup [Implemented]
