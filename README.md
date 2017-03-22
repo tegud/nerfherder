@@ -14,6 +14,9 @@ It's a name, involes herding, also I like Star Wars, what of it?
 
 `TBD`
 
+## Project Status: Proof of Concept
+This version is an initial pass of the functionality, used to generally explore what is required to implement automated rancher go agent handling.  Once basic functionality is established, a more robust, tested solution will be implemented.
+
 ## Usage
 ### Agent Cleanup [Implemented]
 One of the first goals of nerfherder was to take care of all LostContact agents from within GOCD.  When managing a large number of go-agents with docker, I found it was very common that when agent services were upgraded in Rancher, that the process would leave a lot of "dead agents" in GOCD, which you'd need to manually remove (a two-step process, involving disabling and deleting the LostContact agents).  nerfherder automates this process by periodically "pinging" for LostContact agents.  Any agent in a LostContact state, who's IP range matches the defined rancher subnet, or who's host is listed by rancher for your configured agent, will be disabled then deleted.
